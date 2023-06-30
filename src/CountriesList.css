@@ -1,0 +1,40 @@
+
+body {
+    background-color: deepskyblue;
+
+
+.countries-list {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 60px;
+    background-color: #f2f2f2; /* Adiciona um background */
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .countries-ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .country-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .country-flag {
+    width: 50px; /* Aumenta o tamanho da bandeira */
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .country-name {
+    font-size: 16px;
+  }
+}
